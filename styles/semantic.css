@@ -43,10 +43,6 @@ ul {
     margin: 0;
 }
 
-ul>li:not(:last-child) {
-    margin-right: 30px;
-}
-
 .box {
     display: flex;
     margin-bottom: 30px;
@@ -76,11 +72,24 @@ section {
 }
 
 .link {
+    display: block;
     background-color: rebeccapurple;
     color: white;
+    text-align: center;
     padding: 8px 15px;
+    margin-top: 8px;
 }
 
 h1+section {
     background-color: moccasin;
+}
+
+.results {
+    display: flex;
+    gap: 10px;
+}
+
+.ul {
+    display: flex;
+    gap: 30px;
 }
